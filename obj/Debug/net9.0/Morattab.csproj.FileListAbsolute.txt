@@ -1,0 +1,13 @@
+D:\My World\Elesoft\Morattab\Morattab\bin\Debug\net9.0\Morattab.deps.json
+D:\My World\Elesoft\Morattab\Morattab\bin\Debug\net9.0\Morattab.dll
+D:\My World\Elesoft\Morattab\Morattab\bin\Debug\net9.0\Morattab.pdb
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.GeneratedMSBuildEditorConfig.editorconfig
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.AssemblyInfoInputs.cache
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.AssemblyInfo.cs
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.csproj.CoreCompileInputs.cache
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.dll
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\refint\Morattab.dll
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.pdb
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\ref\Morattab.dll
+D:\My World\Elesoft\Morattab\Morattab\bin\Debug\net9.0\Morattab.xml
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.xml
