@@ -3,6 +3,44 @@
 کتابخانه‌ای ساده و کارآمد برای نمایش داده‌ها به صورت جدول در کنسول C#. این کتابخانه امکان تبدیل آرایه‌ها و لیست‌ها به جداول زیبا و منظم را فراهم می‌کند.
 
 ## کلاس‌های موجود
+### 1. Table
+
+کلاسی برای تعریف جدول، افزودن رکورد و نمایش آن
+
+#### متدها
+
+**Add(string[] Record)**
+- آرایه‌ای از نوع رشته که یک سطر از جدول را مشخص می‌کند، هر اندیس بیانگر مقدار یک ستون است.
+  
+**Write(string[,] InputArray, int RowLength = 0, bool? RowsSeparator = false, char? SeparatorLetter = '|', char? RowSeparatorLetter = '-')**
+- نمایش جدول تعریف شده در کنسول
+- قابلیت تنظیم جداکننده‌های ستون و ردیف
+- امکان نمایش خطوط جداکننده بین ردیف‌ها
+
+**مثال استفاده:**
+
+```csharp
+using Morattab;
+
+class Program
+{
+    static void Main()
+    {
+        Table table = new Table();
+
+        table.Add(new string[] { "FirstName", "LastName", "Age" });
+        table.Add(new string[] { "Amir Hossein", "Ostad", "18" });
+        table.Add(new string[] { "Michael", "Scofilde", "30" });
+
+        table.Write();
+    }
+}
+```
+
+نتیجه:
+<br/>
+<img width="811" height="218" alt="{52C317B8-AFEB-4895-A07A-68B4FA6E27E7}" src="https://github.com/user-attachments/assets/21f04d58-d817-4c86-b39f-90a73097e194" />
+
 
 ### 1. Record
 
@@ -30,7 +68,6 @@ class Program
         string formattedName = record.FixSpaces(name, 15);
         
         Console.WriteLine($"[{formattedName}]");
-        // نتیجه: 
     }
 }
 ```
