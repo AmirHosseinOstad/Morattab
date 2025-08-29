@@ -12,7 +12,7 @@
 **Add(string[] Record)**
 - ورودی تابع آرایه‌ای از نوع رشته که یک سطر از جدول را مشخص می‌کند، هر اندیس بیانگر مقدار یک ستون است.
   
-**Write(string[,] InputArray, int RowLength = 0, bool? RowsSeparator = false, char? SeparatorLetter = '|', char? RowSeparatorLetter = '-')**
+**Write(int RowLength = 0, bool? RowsSeparator = false, char? SeparatorLetter = '|', char? RowSeparatorLetter = '-')**
 - نمایش جدول تعریف شده در کنسول
 - قابلیت تنظیم جداکننده‌های ستون و ردیف
 - امکان نمایش خطوط جداکننده بین ردیف‌ها
