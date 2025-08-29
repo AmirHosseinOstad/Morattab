@@ -32,7 +32,7 @@ class Program
         table.Add(new string[] { "Amir Hossein", "Ostad", "18" });
         table.Add(new string[] { "Michael", "Scofilde", "30" });
 
-        table.Write();
+        table.Write(0, true);
     }
 }
 ```
@@ -42,7 +42,7 @@ class Program
 <img width="811" height="218" alt="{52C317B8-AFEB-4895-A07A-68B4FA6E27E7}" src="https://github.com/user-attachments/assets/21f04d58-d817-4c86-b39f-90a73097e194" />
 
 
-### 1. Record
+### 2. Record
 
 کلاسی برای تنظیم فاصله‌گذاری فیلدهای تک‌رکورد
 
@@ -72,7 +72,7 @@ class Program
 }
 ```
 
-### 2. TableForArrey
+### 3. TableForArrey
 
 کلاسی برای ایجاد جدول از آرایه‌های یک‌بعدی و دوبعدی
 
@@ -133,7 +133,7 @@ class Program
 
 
 
-### 3. TableForList
+### 4. TableForList
 
 کلاسی برای ایجاد جدول از لیست‌های شیء
 
