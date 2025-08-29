@@ -11,3 +11,4 @@ D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.pdb
 D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\ref\Morattab.dll
 D:\My World\Elesoft\Morattab\Morattab\bin\Debug\net9.0\Morattab.xml
 D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.xml
+D:\My World\Elesoft\Morattab\Morattab\obj\Debug\net9.0\Morattab.sourcelink.json

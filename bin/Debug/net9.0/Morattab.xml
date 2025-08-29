@@ -34,7 +34,7 @@
             <summary>
             Adjusts spacing for better table display
             </summary>
-            <param name="Input">One-dimensional array of values ​​of a row from a table</param>
+            <param name="Input">One-dimensional array of values ​​of a column from a table</param>
             <param name="RowLength">The length of the row to sort by</param>
             <returns>Returns a Array with spaces added to the items for better display</returns>
         </member>
@@ -94,33 +94,23 @@
             Drawing a table according to a predefined list
             </summary>
         </member>
-        <member name="M:Morattab.TableForList.FixSpacesAuto``1(System.Collections.Generic.List{``0},System.Nullable{System.Int32})">
+        <member name="M:Morattab.TableForList.FixSpaces``1(System.Collections.Generic.List{``0},System.Int32,System.Nullable{System.Int32})">
             <summary>
-            Automatically adjusts spacing for better table display
+            Adjusts spacing for better table display
             </summary>
             <typeparam name="T">List type (may be class)</typeparam>
             <param name="Input">List of input data</param>
+            <param name="RowLengthInput">The row length to which the spacing is adjusted (defaults to 0 for automatic mode)</param>
             <param name="AddSpace">Add extra space (optional)</param>
-            <returns>Returns a list with spaces added to the items for better display</returns>
-        </member>
-        <member name="M:Morattab.TableForList.WriteAuto``1(System.Collections.Generic.List{``0},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Char},System.Nullable{System.Char})">
-            <summary>
-            Automatically sorts the table according to the data list and prints it to the console
-            </summary>
-            <typeparam name="T">List type (may be class)</typeparam>
-            <param name="Input">List of input data</param>
-            <param name="ShowPropsSubject">Show or hide list column headings</param>
-            <param name="RowsSeparator">Show or hide table row separator line</param>
-            <param name="SeparatorLetter">Column separator character</param>
-            <param name="RowSeparatorLetter">Row separator character</param>
+            <returns>Returns a Array with spaces added to the items for better display</returns>
         </member>
         <member name="M:Morattab.TableForList.Write``1(System.Collections.Generic.List{``0},System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Char},System.Nullable{System.Char})">
             <summary>
             Sorts the table according to the data list and prints it to the console
             </summary>
             <typeparam name="T">List type (may be class)</typeparam>
-            <param name="Input">List of input data</param>
-            <param name="RowLength">The length of each field in the table that is being sorted by</param>
+            <param name="InputList">List of input data</param>
+            <param name="RowLength">The row length to which the spacing is adjusted (defaults to 0 for automatic mode)</param>
             <param name="ShowPropsSubject">Show or hide list column headings</param>
             <param name="RowsSeparator">Show or hide table row separator line</param>
             <param name="SeparatorLetter">Column separator character</param>

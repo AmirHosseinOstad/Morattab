@@ -53,7 +53,7 @@
         /// <summary>
         /// Adjusts spacing for better table display
         /// </summary>
-        /// <param name="Input">One-dimensional array of values ​​of a row from a table</param>
+        /// <param name="Input">One-dimensional array of values ​​of a column from a table</param>
         /// <param name="RowLength">The length of the row to sort by</param>
         /// <returns>Returns a Array with spaces added to the items for better display</returns>
         public string[] FixSpaces(string[] Input, int RowLength)
