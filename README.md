@@ -10,7 +10,7 @@
 #### متدها
 
 **Add(string[] Record)**
-- آرایه‌ای از نوع رشته که یک سطر از جدول را مشخص می‌کند، هر اندیس بیانگر مقدار یک ستون است.
+- ورودی تابع آرایه‌ای از نوع رشته که یک سطر از جدول را مشخص می‌کند، هر اندیس بیانگر مقدار یک ستون است.
   
 **Write(string[,] InputArray, int RowLength = 0, bool? RowsSeparator = false, char? SeparatorLetter = '|', char? RowSeparatorLetter = '-')**
 - نمایش جدول تعریف شده در کنسول
