@@ -82,7 +82,7 @@ Console.WriteLine($"[{formattedName}]");
 **کاربرد:** تنظیم خودکار فاصله‌ها برای نمایش بهتر جدول
 
 **پارامترها:**
-- `Input`: آرایه یک‌بعدی مقادیر یک سطر از جدول
+- `Input`: آرایه یک‌بعدی مقادیر یک ستون از جدول
 - `AddSpace`: فاصله اضافی (اختیاری)
 
 **خروجی:** آرایه با فاصله‌های تنظیم شده
@@ -95,17 +95,19 @@ using Morattab;
 TableForArrey table = new TableForArrey();
 
 // آرایه نمونه
-string[] data = {"نام", "سن", "شهر"};
+string[] data = {"Hossein", "Amir", "Ali"};
 
 // تنظیم خودکار فاصله‌ها
 string[] formatted = table.FixSpacesAuto(data, 2);
 
 foreach (var item in formatted)
 {
-    Console.Write($"[{item}]");
+    Console.WriteLine($"[{item}]");
 }
-// خروجی: [نام  ][سن  ][شهر  ]
 ```
+// خروجی:
+<img width="563" height="146" alt="{70B05F3D-86CD-4499-87ED-E9D2AD00C5A4}" src="https://github.com/user-attachments/assets/1850af7c-f7b5-437b-a823-7113fbaf3bc2" />
+
 
 #### ✅ `FixSpaces(string[] Input, int RowLength)`
 **کاربرد:** تنظیم فاصله‌ها با طول مشخص
