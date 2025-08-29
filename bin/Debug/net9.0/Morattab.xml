@@ -22,20 +22,12 @@
             Drawing a table according to a predefined Array
             </summary>
         </member>
-        <member name="M:Morattab.TableForArrey.FixSpacesAuto(System.String[],System.Nullable{System.Int32})">
-            <summary>
-            Automatically adjusts spacing for better table display
-            </summary>
-            <param name="Input">One-dimensional array of values ​​of a row from a table</param>
-            <param name="AddSpace">Add extra space (optional)</param>
-            <returns>Returns a Array with spaces added to the items for better display</returns>
-        </member>
-        <member name="M:Morattab.TableForArrey.FixSpaces(System.String[],System.Int32)">
+        <member name="M:Morattab.TableForArrey.FixSpaces(System.String[],System.Int32,System.Nullable{System.Int32})">
             <summary>
             Adjusts spacing for better table display
             </summary>
-            <param name="Input">One-dimensional array of values ​​of a column from a table</param>
-            <param name="RowLength">The length of the row to sort by</param>
+            <param name="Input">One-dimensional array of values ​​of a row from a table</param>
+            <param name="AddSpace">Add extra space (optional)</param>
             <returns>Returns a Array with spaces added to the items for better display</returns>
         </member>
         <member name="M:Morattab.TableForArrey.FixSpaces(System.String[],System.Int32[])">
@@ -46,20 +38,13 @@
             <param name="RowLength">An array of the length of the table rows, each indexed according to the input data array</param>
             <returns>Returns a Array with spaces added to the items for better display</returns>
         </member>
-        <member name="M:Morattab.TableForArrey.FixSpacesAuto(System.String[0:,0:],System.Nullable{System.Int32})">
-            <summary>
-            Automatically adjusts spacing for better table display
-            </summary>
-            <param name="Input">One-dimensional array of values ​​of a table</param>
-            <param name="AddSpace">Add extra space (optional)</param>
-            <returns>Returns a two-dimensional Array with spaces added to the items for better display</returns>
-        </member>
-        <member name="M:Morattab.TableForArrey.FixSpaces(System.String[0:,0:],System.Int32)">
+        <member name="M:Morattab.TableForArrey.FixSpaces(System.String[0:,0:],System.Int32,System.Nullable{System.Int32})">
             <summary>
             Adjusts spacing for better table display
             </summary>
-            <param name="Input">Two-dimensional array of values ​​of a row from a table</param>
-            <param name="RowLength">The length of the row to sort by</param>
+            <param name="Input">One-dimensional array of values ​​of a table</param>
+            <param name="RowLengthInput">The row length to which the spacing is adjusted (defaults to 0 for automatic mode)</param>
+            <param name="AddSpace">Add extra space (optional)</param>
             <returns>Returns a two-dimensional Array with spaces added to the items for better display</returns>
         </member>
         <member name="M:Morattab.TableForArrey.FixSpaces(System.String[0:,0:],System.Int32[])">
@@ -67,24 +52,15 @@
             Adjusts spacing for better table display
             </summary>
             <param name="Input">Two-dimensional array of values ​​of a row from a table</param>
-            <param name="RowLength">An array of the length of the table rows, each indexed according to the input data array</param>
+            <param name="RowLength">The length of the row to sort by</param>
             <returns>Returns a two-dimensional Array with spaces added to the items for better display</returns>
-        </member>
-        <member name="M:Morattab.TableForArrey.WriteAuto(System.String[0:,0:],System.Nullable{System.Boolean},System.Nullable{System.Char},System.Nullable{System.Char})">
-            <summary>
-            Automatically sorts the table according to the data Array and prints it to the console
-            </summary>
-            <param name="Input">Two-dimensional Array of input data</param>
-            <param name="RowsSeparator">Show or hide table row separator line</param>
-            <param name="SeparatorLetter">Column separator character</param>
-            <param name="RowSeparatorLetter">Row separator character</param>
         </member>
         <member name="M:Morattab.TableForArrey.Write(System.String[0:,0:],System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Char},System.Nullable{System.Char})">
             <summary>
             Sorts the table according to the data Array and prints it to the console
             </summary>
-            <param name="Input">Two-dimensional Array of input data</param>
-            <param name="RowLength">The length of each field in the table that is being sorted by</param>
+            <param name="InputArray">Two-dimensional Array of input data</param>
+            <param name="RowLength">The row length to which the spacing is adjusted (defaults to 0 for automatic mode)</param>
             <param name="RowsSeparator">Show or hide table row separator line</param>
             <param name="SeparatorLetter">Column separator character</param>
             <param name="RowSeparatorLetter">Row separator character</param>
