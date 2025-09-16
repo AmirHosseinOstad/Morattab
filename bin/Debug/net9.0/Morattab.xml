@@ -22,20 +22,42 @@
             Defining a table, adding rows, and displaying them
             </summary>
         </member>
+        <member name="F:Morattab.Table.RowLength">
+            <summary>
+            A variable that indicates the length of all columns. (Suggested: 0)
+            </summary>
+        </member>
+        <member name="F:Morattab.Table.RowsSeparator">
+            <summary>
+            Should there be a separator between rows?
+            </summary>
+        </member>
+        <member name="F:Morattab.Table.SeparatorLetter">
+            <summary>
+            Column separator character
+            </summary>
+        </member>
+        <member name="F:Morattab.Table.RowSeparatorLetter">
+            <summary>
+            Row separator character
+            </summary>
+        </member>
         <member name="M:Morattab.Table.Add(System.String[])">
             <summary>
             Adding rows to a table, each row is a string array and each array index is a column of the table
             </summary>
             <param name="Record">Array of columns in a row of a table</param>
         </member>
-        <member name="M:Morattab.Table.Write(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Char},System.Nullable{System.Char})">
+        <member name="M:Morattab.Table.Write">
             <summary>
             Sort and print the table according to the added values
             </summary>
-            <param name="RowLength">The row length to which the spacing is adjusted (defaults to 0 for automatic mode)</param>
-            <param name="RowsSeparator">Show or hide table row separator line</param>
-            <param name="SeparatorLetter">Column separator character</param>
-            <param name="RowSeparatorLetter">Row separator character</param>
+        </member>
+        <member name="M:Morattab.Table.Write(System.Int32[])">
+            <summary>
+            Sort and print the table according to the added values
+            </summary>
+            <param name="RowLength">The row length Arrey to which the spacing is adjusted (defaults to 0 for automatic mode)</param>
         </member>
         <member name="T:Morattab.TableForArrey">
             <summary>

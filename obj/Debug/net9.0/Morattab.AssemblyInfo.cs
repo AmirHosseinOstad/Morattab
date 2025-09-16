@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Morattab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11ef18ce2a583c8d382f5c886f1fa8f4e5102ad6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4443d72cde227b189a2304edd5848352a156601a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Morattab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Morattab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
