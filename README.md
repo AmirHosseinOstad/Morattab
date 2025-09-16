@@ -2,6 +2,27 @@
 
 کتابخانه‌ای ساده و کارآمد برای نمایش داده‌ها به صورت جدول در کنسول C#. این کتابخانه امکان تبدیل آرایه‌ها و لیست‌ها به جداول زیبا و منظم را فراهم می‌کند.
 
+## نمونه کد رسم جدول
+```
+        Table table = new Table()
+        {
+            //Set features
+            RowsSeparator = true,
+            RowSeparatorLetter = '_',
+            SeparatorLetter = '|'
+        };
+
+        //Add rows to the table
+        table.Add(new string[] { "Name", "Last Name", "Age" });
+        table.Add(new string[] { "Amir Hossein", "Ostad", "18" });
+        table.Add(new string[] { "Michael", "Scofield", "35" });
+
+        //Print table
+        table.Write();
+
+و از نتیجه لذت ببرید!
+```
+
 ## کلاس‌های موجود
 ### 1. Table
 
@@ -12,7 +33,7 @@
 **Add(string[] Record)**
 - ورودی تابع آرایه‌ای از نوع رشته که یک سطر از جدول را مشخص می‌کند، هر اندیس بیانگر مقدار یک ستون است.
   
-**Write(int RowLength = 0, bool? RowsSeparator = false, char? SeparatorLetter = '|', char? RowSeparatorLetter = '-')**
+**Write()**
 - نمایش جدول تعریف شده در کنسول
 - قابلیت تنظیم جداکننده‌های ستون و ردیف
 - امکان نمایش خطوط جداکننده بین ردیف‌ها
