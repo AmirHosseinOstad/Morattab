@@ -3,8 +3,10 @@
 کتابخانه‌ای ساده و کارآمد برای نمایش داده‌ها به صورت جدول در کنسول C#. این کتابخانه امکان تبدیل آرایه‌ها و لیست‌ها به جداول زیبا و منظم را فراهم می‌کند.
 
 ## نمونه کد رسم جدول
-```
-        Table table = new Table()
+```csharp
+using Morattab;
+
+Table table = new Table()
         {
             //Set features
             RowsSeparator = true,
@@ -12,13 +14,13 @@
             SeparatorLetter = '|'
         };
 
-        //Add rows to the table
-        table.Add(new string[] { "Name", "Last Name", "Age" });
-        table.Add(new string[] { "Amir Hossein", "Ostad", "18" });
-        table.Add(new string[] { "Michael", "Scofield", "35" });
+//Add rows to the table
+table.Add(new string[] { "Name", "Last Name", "Age" });
+table.Add(new string[] { "Amir Hossein", "Ostad", "18" });
+table.Add(new string[] { "Michael", "Scofield", "35" });
 
-        //Print table
-        table.Write();
+//Print table
+table.Write();
 ```
 
 ## کلاس‌های موجود
